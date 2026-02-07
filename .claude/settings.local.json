@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E [0-9]+-database-extensions)",
+      "Bash(git fetch --all --prune)",
+      "Bash(grep -E [0-9]+-agent-behavior-model)",
+      "Bash(kubectl rollout status deployment/todochatbot-release-frontend)",
+      "Bash(kubectl get pods)",
+      "Bash(kubectl rollout status deployment/todochatbot-release-backend)"
+    ]
+  }
+}

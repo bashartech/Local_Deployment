@@ -1,0 +1,319 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# SageMath parsed files
+*.sage.py
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+VolumeIcon.icns
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage
+coverage/
+coverage/lcov-report
+
+# Next.js
+.next/
+out/
+
+# Docker
+.dockerignore
+*.dockerignore
+
+# Kubernetes
+.kube/
+.kubectl/
+.kustomize/
+*.kubeconfig
+
+# Helm
+.helm/
+.helmignore
+*.lock
+charts/
+tmp/
+
+# Minikube
+.minikube/
+*.minikube
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+
+# Secrets and sensitive files
+todo-backend-env
+todo-frontend-env
+*.key
+*.pem
+*.crt
+*.cert
+*.secret
+secrets/
+*.secret.yaml
+*.secrets.yaml
+create-secrets.sh
+create-secrets.ps1
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.#*
+*.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+*.lnk
+
+# Next.js specific
+.next/
+out/
+.nft.json
+!.next/static
+!.next/static/**
+
+# Backend specific
+*.db
+*.sqlite
+*.sqlite3
+instance/
+.webassets-cache
+scraped_emails.txt
+error.md
+error.txt
+
+# Frontend specific
+public/build/
+dist/
+build/
+
+# Deployment artifacts
+*.yaml
+*.yml
+!helm-charts/**/*
+!k8s-manifests/**/*
+helm.exe
+minikube-linux-amd64
+helm.exe
+minikube-linux-amd64
+*.exe
+# Local development
+*.local
+*.dev
+*.development
+
+# Credentials
+credentials.json
+*.credentials.json
+*.json.credentials
+*.creds
+*.tokens
+*.token
+
+# Configuration files that might contain sensitive data
+config.json
+*.config.json
+settings.json
+*.settings.json
+*.conf
+*.config
+
+# Artifacts from tools
+*.tmp
+*.temp
+.nyc_output/
+*.min.js
+*.min.css
+helm.exe
+# System files
+*.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+*.lnk
+
+# Python specific
+*.pyc
+__pycache__/
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+*.cover
+*.log
+.git/
+
+# Node.js specific
+node_modules/
+jspm_packages/
+*.js.map
+*.mjs.map
+*.cjs.map
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+jspm_packages/
+web-build/
+dist/
+build/
+.nyc_output/
+coverage/
+.nyc_output/
+*.cover
+*.log
+*.tmp
+*.temp
+.git/

@@ -85,7 +85,7 @@ kubectl create namespace todo-chatbot --dry-run=client -o yaml | kubectl apply -
 # Create frontend secrets
 kubectl create secret generic todo-frontend-env \
   --from-literal=NEXT_PUBLIC_BETTER_AUTH_URL="http://todo.local" \
-  --from-literal=NEXT_PUBLIC_BETTER_AUTH_SECRET="e8QDSIu8QZtOENR8tRcsdwYMmwC4Uom0" \
+  --from-literal=NEXT_PUBLIC_BETTER_AUTH_SECRET="e0989jhfgjhfgh0" \
   --from-literal=NEXT_PUBLIC_FRONTEND_URL="http://todo.local" \
   --from-literal=NEXT_PUBLIC_BACKEND_URL="http://todo.local/api" \
   --from-literal=GOOGLE_CLIENT_ID="your-google-client-id" \
@@ -96,7 +96,7 @@ kubectl create secret generic todo-frontend-env \
 # Create backend secrets
 kubectl create secret generic todo-backend-env \
   --from-literal=BETTER_AUTH_URL="http://todo.local" \
-  --from-literal=BETTER_AUTH_SECRET="e8QDSIu8QZtOENR8tRcsdwYMmwC4Uom0" \
+  --from-literal=BETTER_AUTH_SECRET="e8iohu87098789jhm0" \
   --from-literal=DATABASE_URL="your-db-url" \
   --from-literal=GEMINI_API_KEY="your-api-key" \
   --from-literal=GOOGLE_CLIENT_ID="your-google-client-id" \
